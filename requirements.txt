@@ -1,0 +1,6 @@
+PyGithub
+
+in terminal use pip install selenium
+youtube link 
+https://www.youtube.com/watch?v=b5jt2bhSeXs
+Python Selenium Tutorial #2 - Locating Elements From HTML
