@@ -23,8 +23,8 @@ f.close()
 try:
           	# performing git bash actions
     os.system('git init')
-    os.system(f'echo "# {foldername}" >> README.md')
-    os.system(f'echo "# {foldername}" >> License.md')
+    os.system(f'echo "# {foldername}" > README.md')
+    os.system(f'echo "# {foldername}" > License.md')
     os.system('git add .')
     os.system('git commit -m "first commit"')
 	
