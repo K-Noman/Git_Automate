@@ -4,11 +4,7 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
-path = r"C:\Users\9 MAN\projects\automate project\chromedriver.exe"
-dirpath = os.getcwd()
-path = f' {dirpath}\chromedriver.exe'
-print(path)
-
+pat = os.getcwd()
+path = f' {pat}\chromedriver.exe'
 repository = str(sys.argv[1])
-print(repository)
+print(path)

@@ -4,19 +4,13 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
-path = r"C:\Users\9 MAN\projects\automate project\chromedriver.exe"
-dirpath = os.getcwd()
-path = f' {dirpath}\chromedriver.exe'
-print(path)
-
 repository = str(sys.argv[1])
 print(repository)
-
+path = r"C:\Users\9 MAN\projects\automate project\Git_Automate\chromedriver.exe"
 driver = webdriver.Chrome(path)
 driver.get("https://github.com/login")
-Username = "UserName"
-Password = "*******"
+Username = "Username"
+Password = "*********"
 
 Uname_xpath = 'login_field'
 Uname_element = driver.find_element_by_id(Uname_xpath)

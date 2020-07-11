@@ -8,6 +8,7 @@ If "%1"=="" (
     echo "error"
 ) else ( 
     if "%2"=="" (
+        
         python remote.py %fn% %flag%
         python br2.py %fn% %flag%
         ) else (
