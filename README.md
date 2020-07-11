@@ -11,7 +11,7 @@
 ##   What to do first 
 
 	1. open br2.py in text editer (like notepad etc.)
-	2. goto Ln: 9  replace your path {to the folder in which you ard currently in } with this
+	2. goto Ln: 9  replace your path {to the folder in which you are currently in } with this
  			C:\Users\9 MAN\projects\automate project\Git_Automate
 			while other remains the same 
 			
